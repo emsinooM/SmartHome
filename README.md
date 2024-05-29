@@ -37,7 +37,7 @@ Prepare your database by adding the sample records in your collection. Please se
 5. Replace the value of the .env file to your MongoDB Atlas
 
     ```sh
-    MONGO_DB_CONN_STRING=mongodb+srv://<DB_USER_NAME>:<DB_PASSWORD>@<MONGO_DB_ATLAS_ENDPOINT>/sensor_db
+    MONGO_DB_CONN_STRING=mongodb+srv://<DB_USER_NAME>:<DB_PASSWORD>@<MONGO_DB_ATLAS_ENDPOINT>/sensors_db
     ```
 
 6. Run the Flask server
@@ -51,3 +51,6 @@ Prepare your database by adding the sample records in your collection. Please se
     ```sh
     http://<IP>:5000
     ```
+
+## Structure of MongoDB data
+![Alt text](mongoDB data.jpg)
