@@ -1,8 +1,8 @@
 # SmartHome
 ## Prerequisites
-Create a MongoDB Atlas cluster.
-Create a database called sensors_db with a collection sensors
-Prepare your database by adding the sample records in your collection. Please see the writeup.
+Create a MongoDB Atlas cluster.<br>
+Create a database called sensors_db with a collection sensors<br>
+Prepare your database by adding the sample records in your collection. Please see the writeup.<br>
 
 ## Steps on how to run the Rest API
 1. Open the project in Visual Studio Code and then open a new terminal. Create a virtual environment using the below command
