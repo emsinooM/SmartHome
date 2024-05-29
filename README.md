@@ -28,25 +28,21 @@ Prepare your database by adding the sample records in your collection. Please se
     ```sh
     pip install -r requirements.txt
     ```
-4. Rename the .env.local to .env
 
-    ```sh
-    mv .env.local .env
-    ```
 
-5. Replace the value of the .env file to your MongoDB Atlas
+4. Replace the value of the .env file to your MongoDB Atlas
 
     ```sh
     MONGO_DB_CONN_STRING=mongodb+srv://<DB_USER_NAME>:<DB_PASSWORD>@<MONGO_DB_ATLAS_ENDPOINT>/sensors_db
     ```
 
-6. Run the Flask server
+5. Run the Flask server
 
     ```sh
     flask run
     ```
 
-7. Open your browser and type the following URL
+6. Open your browser and type the following URL
 
     ```sh
     http://<IP>:5000
