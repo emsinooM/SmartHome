@@ -53,4 +53,4 @@ Prepare your database by adding the sample records in your collection. Please se
     ```
 
 ## Structure of MongoDB data
-![Alt text](mongoDB data.jpg)
+![Alt text](D:\Study\STUdied\Do_An_1\Smart home\mongoDB data.jpg)
